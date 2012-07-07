@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center" android:padding="10sp" android:textStyle="bold"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_bluetoothOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/turn_arduino_bluetooth_connection_on"/>
+
+    <CheckBox
+        android:id="@+id/checkBox_LEDOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/turn_arduino_led_on"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/led_intensity"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center" android:paddingTop="10sp"/>
+
+    <SeekBar
+        android:id="@+id/seekBar_LEDIntensity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:padding="5sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" android:gravity="bottom">
+
+        <Button
+            android:id="@+id/button_help"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/help" android:layout_weight="50"/>
+
+        <Button
+            android:id="@+id/button_credits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/credits" android:layout_weight="50"/>
+
+    </LinearLayout>
+
+</LinearLayout>

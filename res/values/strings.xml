@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Arduino Bluetooth LED</string>
+    
+    <string name="turn_arduino_bluetooth_connection_on">Turn Arduino Bluetooth Connection On</string>
+    <string name="turn_arduino_led_on">Turn Arduino LED On</string>
+    <string name="led_intensity">LED Intensity</string>
+    <string name="help">Help</string>
+    <string name="credits">Credits</string>
+    <string name="back">Back</string>
+    
+    <string name="help_details">An Android Application for controlling the state of a LED via Bluetooth.</string>
+    <string name="credits_details">Credits<![CDATA[
+        <em> &#8226; Ashish Ranjan</em> <br />
+        Student <br />
+        Mechanical Engineering Dept. <br /> <br />
+        <em> &#8226; P V Manivannan</em> <br />
+        Asst. Professor<br />
+        Mechanical Engineering Dept.<br />
+        ]]>
+    </string>
+    
+</resources>
